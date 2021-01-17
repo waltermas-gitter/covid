@@ -29,6 +29,5 @@ async function iniciar() {
 	estadisticas = json.dates[`${date_formatted}`].countries.Argentina.today_new_confirmed;
 	document.getElementById("casos").innerHTML = estadisticas;
 	console.log(estadisticas);
-	alert(estadisticas);
 
 }
